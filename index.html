@@ -34,20 +34,21 @@ tw-link:hover {
     color: #fff !important; /* Yazı beyaz olur */
     cursor: pointer;
     box-shadow: 0 0 10px rgba(255, 51, 51, 0.6); /* Hafif parlama efekti */
-}</style><script role="script" id="twine-user-script" type="text/twine-javascript"></script><tw-tag name="header" color="blue"></tw-tag><tw-passagedata pid="1" name="GIRIS" tags="" position="1800,100" size="100,100">(align:&quot;=&gt;&lt;=&quot;)+(box:&quot;=XXXXXXXX=&quot;)[
+}</style><script role="script" id="twine-user-script" type="text/twine-javascript"></script><tw-tag name="header" color="blue"></tw-tag><tw-passagedata pid="1" name="GIRIS" tags="" position="1750,100" size="100,100">(align:&quot;=&gt;&lt;=&quot;)+(box:&quot;=XXXXXXXX=&quot;)[
 BAFRAGAME
 KAANDRICK LAMAR STUDIOS
 VER. BETA 0.1
 ]
 (set: $akilsagligi to 1000)
 {(set: $sigaraAldi to false)}
+{(set: $coin to false)}
 [[OYUNA BASLA]]
-</tw-passagedata><tw-passagedata pid="2" name="OYUNA BASLA" tags="" position="1800,225" size="100,100">
+</tw-passagedata><tw-passagedata pid="2" name="OYUNA BASLA" tags="" position="1750,225" size="100,100">
 Bafra Simülasyonuna Hoş Geldin. Görevin akıl sağlığını kaybetmeden 1 gün geçirmek. 
 Yaptığın tüm seçimler hikayenin ilerleyişine katkıda bulunacak ve değişmesini sağlayacak. 
 Bu proje erken geliştirme aşamasındadır. Karşılaştığın hataları bana belirtmeyi unutma.
 
-[[DEVAM ET-&gt;BÖLÜM 1]]</tw-passagedata><tw-passagedata pid="3" name="BÖLÜM 1" tags="" position="1800,350" size="100,100">
+[[DEVAM ET-&gt;BÖLÜM 1]]</tw-passagedata><tw-passagedata pid="3" name="BÖLÜM 1" tags="" position="1750,350" size="100,100">
 Saat 06:30&#39;da İngilizce dersine gitmek için uyandın. Ne yapacaksın? 
 
 [[Elini Yüzünü Yıkamaya Git]]
@@ -55,7 +56,7 @@ Saat 06:30&#39;da İngilizce dersine gitmek için uyandın. Ne yapacaksın?
 [[Uyumaya Devam Et]] 
 [[Eren&#39;i şaplakla]]
 
-</tw-passagedata><tw-passagedata pid="4" name="Berkay&#39;ı Uyandır" tags="" position="1925,325" size="100,100">
+</tw-passagedata><tw-passagedata pid="4" name="Berkay&#39;ı Uyandır" tags="" position="1875,325" size="100,100">
 Berkay uyanmayı reddediyor. 
 Tekrar denediğinde sana küfür ediyor. 
 Küfüre alışkın olduğundan akıl sağlığını kaybetmedin. 
@@ -68,7 +69,7 @@ Yüzünü yıkarken kusmamaya çalışıyorsun
 Akıl Sağlığı: -200 
 (set: $akilsagligi to it - 200)
 
-[[Odaya geri dön]]</tw-passagedata><tw-passagedata pid="6" name="Uyumaya Devam Et" tags="" position="1800,475" size="100,100">
+[[Odaya geri dön]]</tw-passagedata><tw-passagedata pid="6" name="Uyumaya Devam Et" tags="" position="1750,475" size="100,100">
 Yataktan kalkmayı reddediyorsun. 
 İngilizce dersine gitmedin... 
 Günü yatarak ve oyun oynayarak geçiriyorsun. 
@@ -76,7 +77,7 @@ Odadaki açlık ve sefaletin akıl sağlığına etkisi: -300
 Akşama kadar başka bir şey yaşanmıyor ve kısmen huzur içerisinde yatağa giriyorsun... 
 (set: $akilsagligi to it - 300)
 
-[[UYU -&gt;UYUMAYA DEVAM ET 2]]</tw-passagedata><tw-passagedata pid="7" name="Eren&#39;i şaplakla" tags="" position="1925,450" size="100,100">
+[[UYU -&gt;UYUMAYA DEVAM ET 2]]</tw-passagedata><tw-passagedata pid="7" name="Eren&#39;i şaplakla" tags="" position="1875,450" size="100,100">
 
 Eren&#39;i şaplaklıyorsun 
 Eren tepki vermiyor...
@@ -85,7 +86,7 @@ Eren tepki vermiyor...
 [[ŞAPLAKLAMAYI BIRAK VE KENDİ İŞLERİNLE İLGİLEN-&gt;BÖLÜM 1]]
 
 </tw-passagedata><tw-passagedata pid="8" name="KAYBET" tags="" position="2600,100" size="100,100">~~^^~~&#39;&#39;Akıl Sağlığını Kaybettin&#39;&#39;~~^^~~
-
+&lt;audio src=&quot;bafragame-src/lose.mp3&quot; autoplay loop style=&quot;display:none;&quot;&gt;&lt;/audio&gt;
 [[Tekrar Dene-&gt;GIRIS]]</tw-passagedata><tw-passagedata pid="9" name="Odaya geri dön" tags="" position="1625,525" size="100,100">
 Odaya geri gelip üzerini değiştiriyorsun 
 Oda arkadaşların uyanmadılar
@@ -96,7 +97,7 @@ Uyansa bile Berkay zaten gelmezdi...
 Saatin çok erken olması sebebiyle yemekhanede işletmeci, sen ve aynı dersi aldığın arkadaşların dışında kimse yok. Herhangi bir menü ya da değişim olmadığı için aklına 2 seçenek geliyor. Cüzdanını yokladıktan sonra kararını veriyorsun;
 
 [[Yüce devletinin sana layık gördüğü sınırı aşmadan besin oranı düşük kahvaltını yap -&gt;poor]]
-[[Sınırları görmezden gel ve üzerine ödeme yaparak normal bir insan evladı kahvaltısı yap-&gt;rich]]</tw-passagedata><tw-passagedata pid="11" name="ERENDEAD" tags="" position="1925,550" size="100,100">
+[[Sınırları görmezden gel ve üzerine ödeme yaparak normal bir insan evladı kahvaltısı yap-&gt;rich]]</tw-passagedata><tw-passagedata pid="11" name="ERENDEAD" tags="" position="1875,550" size="100,100">
 Eren&#39;i şaplaklamaya devam ediyorsun... Eren hala tepki vermiyor. 
 Nabzını kontrol ettiğinde öldüğünü fark ediyorsun... 
 Akıl Sağlığı: -1000 
@@ -106,15 +107,15 @@ Akıl Sağlığı: -1000
 TEBRİKLER
 BAFRA&#39;DA 1 GÜN AKIL SAĞLIĞINI KAYBETMEDEN HAYATTA KALDIN
 
-[[TEKRAR OYNA-&gt;GIRIS]]</tw-passagedata><tw-passagedata pid="13" name="UYUMAYA DEVAM ET 2" tags="" position="1800,600" size="100,100">
+[[TEKRAR OYNA-&gt;GIRIS]]</tw-passagedata><tw-passagedata pid="13" name="UYUMAYA DEVAM ET 2" tags="" position="1750,600" size="100,100">
 Odanın camından içeri esen rüzgar sayesinde boynun tutulmuş, rezalet bir biçimde telefonunun titremesine uyanıyorsun.
 (set: $akilsagligi to it - 100)
 Akıl Sağlığı: -100
 
 Teknik olarak Bafra&#39;da 1 gün hayatta kaldın. Bu senin oyunu kazandığın anlamına geliyor, tebrikler. Yapman gereken bir seçim var;
 
-[[2. Günden Devam Et-&gt;SECRET2]]
-[[Zaten Kazandım, daha fazla burada yaşamak istemiyorum.-&gt;TEBRIKLER]]</tw-passagedata><tw-passagedata pid="14" name="SECRET2" tags="" position="1800,725" size="100,100">DEVAM EDECEK
+[[2. Günden Devam Et-&gt;DAY2]]
+[[Zaten Kazandım, daha fazla burada yaşamak istemiyorum.-&gt;TEBRIKLER]]</tw-passagedata><tw-passagedata pid="14" name="DAY2" tags="" position="1750,725" size="100,100">BU ICERIK DAHA SONRASINDA EK PAKET OLARAK SUNULACAKTIR.
 [[BASA DON -&gt;GIRIS]]</tw-passagedata><tw-passagedata pid="15" name="header" tags="header" position="0,0" size="100,100">{(if: (passage:)&#39;s name is not &quot;GIRIS&quot; and (passage:)&#39;s name is not &quot;KAYBET&quot;)[
     (if: $akilsagligi &lt;= 0)[(go-to: &quot;KAYBET&quot;)]
     (else:)[
@@ -210,7 +211,7 @@ Servisten indiğinde bomboş kalmış beyninde sadece Sefa&#39;nın toplu taşı
 
 [[Devam et-&gt;ohno]]
 
-</tw-passagedata><tw-passagedata pid="27" name="toplutasima2" tags="" position="1225,1125" size="100,100">Doblonun arkasına biniyorsunuz, Sefa gel otur diye ısrar etse de kavga dövüş reddediyorsun ve ördek pozisyonunda sağa sola vura vura fakülteye doğru yola çıkıyorsunuz.
+</tw-passagedata><tw-passagedata pid="27" name="toplutasima2" tags="" position="1225,1000" size="100,100">Doblonun arkasına biniyorsunuz, Sefa gel otur diye ısrar etse de kavga dövüş reddediyorsun ve ördek pozisyonunda sağa sola vura vura fakülteye doğru yola çıkıyorsunuz.
 
 Şöför ve ön koltuktaki yaşlı dayı yol boyunca ön koltuğu paylaşabileceğiniz hakkında söyleniyor.
 
@@ -221,9 +222,48 @@ Servisten indiğinde bomboş kalmış beyninde sadece Sefa&#39;nın toplu taşı
 Dayı, şehrin diğer ucu ve sonundaki fakülteden bir durak önce iniyor.
 Akıl sağlığı: -100
 (set: $akilsagligi to it - 100)
-[[Devam et-&gt;fakultevaris]]</tw-passagedata><tw-passagedata pid="29" name="fakultevaris" tags="" position="1350,1250" size="100,100">devam edecek...
+[[Devam et-&gt;fakultevaris]]</tw-passagedata><tw-passagedata pid="29" name="fakultevaris" tags="" position="1350,1250" size="100,100">Fakülteye ulaşıyorsun...
+Şehrin belki de en gelişime açık birkaç metrekarelik alanında da aylardır yeni hiçbir şey olmadığı gözünden kaçmıyor. Aynı öğrenci, aynı okul, aynı öğretmen ve aynı binalar.
+Girişin ardından nispeten uzunca bir yoldan koskoca ama içi bomboş binaya doğru yürüyorsunuz. 
 
-[[GIRIS]]</tw-passagedata></tw-storydata>
+Karşındaki manzara sana önceden ailenle kiracı olarak oturduğunuz evi anımsatıyor; Upuzun, bomboş ve karanlık bir koridordan yine bir o kadar bomboş bir salona açılan kapı... &quot;Bir şeyin büyük olması, iyi olduğu anlamına gelmiyor demek ki&quot; diye düşünüyorsun.
+
+Önüne üst dönem öğrencilerinen biri atlıyor, selam veriyor. Adını hatırlamakta zorlanıyorsun. O sırada Sefa hızla okula doğru ilerlemeye devam ediyor. Bu çocukla ne zaman karşılaşsan bomboş muhabbetinde yok olup gidiyor, bunalıyorsun.
+
+[[Selam ver, nasıl olduğunu sor-&gt;coin]]
+[[Selamla ve geçiştirerek hızla okula doğru yönel-&gt;fakultegiris]]
+</tw-passagedata><tw-passagedata pid="30" name="coin" tags="" position="1225,1125" size="100,100">Elemanın halini hatrını soruyorsun, bir yandan da saatini kontrol ediyorsun.
+Yine 1 saat süren bir konuşmaya dalmamak için birkaç kelime sonra derse geç kaldığını sonra yine konuşacağınızı söylüyorsun. O sırada elini cebine atıp bir madeni para çıakrtıyor; onu almanı istediğini söylüyor. Eline aldığında eski 250.000TL olduğunu görüyorsun. Sanki yeni basılmış gibi pırıl pırıl duruyor.
+
+Neden almanı istediğini sorduğunda yaptığı açıklama ilginçliği kadar saçma da geliyor;
+&quot;Küçükken sokakta beslediğim bir kedim vardı ama araba çarptı ve öldü. Arabadan inen amca ağladığımı görünce bunu verip belki bununla mutlu olursun demişti. Ben de o günden beri mutsuz gördüğüm kişilere bu parayı veriyorum. Nasıl hala bende olduğunu ben de bilmiyorum. Seni daha önce hiç mutlu görmedim, belki bununla mutlu olursun. Unutma, mutlu olduktan sonra bunu başkasına ver ki o da mutlu olsun.&quot;  
+
+[[Parayı al-&gt;yescoin]]
+[[Teşekkür et ve selam vererek okula yönel-&gt;fakultegiris]]</tw-passagedata><tw-passagedata pid="31" name="fakultegiris" tags="" position="1350,1375" size="100,100">Dersin başlamasına 3 dakika kala sınıfa giriyorsun...
+Baygın ve uykusuz gözler etrafında dolanmaya başlıyor. İnsanların varlığından haberdarsın ama kimsenin kimliğini okumuyorsun, hepsi sanki birer korkulukmuş gibi duruyorlar. Bu baygın karga kovalamacasına katılmak üzere birkaç basamak çıkıyorsun. Oturmak için yer ararken gözüne 2 boş sandalye çarpıyor.
+
+[[Sefa&#39;nın önündeki koltuğa otur-&gt;sitsefa]]
+[[Dayı&#39;nın yanına otur-&gt;sitdayı]]
+[[DAYI KİM AMK-&gt;whoisdayi]] </tw-passagedata><tw-passagedata pid="32" name="yescoin" tags="" position="1225,1250" size="100,100">Parayı cebine atıyorsun ve teşekkür ederek fakülteye doğru ilerliyorsun. 
+Öncekinden daha mutlu hissetmiyorsun...
+{(set: $coin to true)}
+[[Devam et-&gt;fakultegiris]] </tw-passagedata><tw-passagedata pid="33" name="sitsefa" tags="" position="1350,1500" size="100,100">Devam edecek
+[[BASA DON -&gt;GIRIS]]</tw-passagedata><tw-passagedata pid="34" name="sitdayı" tags="" position="1500,1500" size="100,100">Devam edecek
+[[BASA DON -&gt;GIRIS]]</tw-passagedata><tw-passagedata pid="35" name="whoisdayi" tags="" position="1225,1375" size="100,100">&lt;audio src=&quot;bafragame-src/implementor.mp3&quot; autoplay loop style=&quot;display:none;&quot;&gt;&lt;/audio&gt;
+Selam yolcu...
+Bu noktadan sonra bu müzik benim sesim,
+Ben benim, sen ise şimdilik bensin.
+Dayı denen kişinin tam olarak kim olduğunu anlatmadan önce söylemem lazım ki beni en ufak şekilde anlamıyorsun, anlaman da mümkün değil. 
+Sorun değil.
+
+Dayı aslında 4. oda arkadaşımdı ama artık ne bedenen ne de zihnen aramızda. Normalde bu hikayede yeri olmaması gerekirdi, zaten bu yüzden odada da değil. Bu hikayede olması gereken çok insan var aslında ama çoğu dayının ihanet ederek kazandığı bu ayrıcalığı kazanamayacak.
+Bazısı adının anılmasını hak etmediğinden,
+Bazısı adı unutulduğundan,
+
+Bilmen gereken bu kadar, bu portaldan çıkıp sınıfa geri dönebilirsin.
+Bu dönüm noktasından sonra bazı isimleri farklı paylaşabilirim, bazı aylar sonra olmuş olayları buraya sığdırmaya çalışabilirim. Sonuç olarak içerisinde bulunduğun durumu anlamışsındır, burası her gün binlerce şeyin olduğu fakat pek de bir şeyin olmadığı bir yer.
+
+[[Geri dön-&gt;fakultegiris]]</tw-passagedata></tw-storydata>
 <script title="Twine engine code" data-main="harlowe">(function(){"use strict";
 var require,define;!function(){var e={},r={};require=function(i){var n=e[i];return n&&(r[i]=n[1].apply(void 0,n[0].map(require)),e[i]=void 0),r[i]},(define=function(r,i,n){if("function"==typeof r)return r();e[r]=[i,n]}).amd=!0}();/*!
  * https://github.com/paulmillr/es6-shim
